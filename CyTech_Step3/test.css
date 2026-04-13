@@ -1,0 +1,122 @@
+/* 全体設定 */
+html {
+    scroll-behavior: smooth; /* リンククリック時にスムーズに動く */
+}
+    
+body {
+    background-color: #faf8f5;
+    color: #333;
+    font-family: "Yu Gothic", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+main, section, header, footer,nav{ padding: 20px;}
+    
+header {
+    background-color: #ff8c00;
+    color: #fff;
+    text-align: center;
+    margin: 20px 0;
+}
+    
+nav {
+    background-color: #eee;
+    padding: 10px 20px;
+    }
+    
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* 横並び */
+    flex-wrap: wrap;
+    gap: 40px;
+    }
+
+nav ul{margin-right: 15px;}
+
+nav a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    }
+    
+nav a:hover {
+    color: #ff8c00;
+    font-weight: bold;
+    text-decoration: underline;
+    }
+
+section h2 {
+    border-bottom: 2px solid #ff8c00;
+    padding-bottom: 5;
+    margin-top: 30px;
+}
+    
+img { 
+    border-radius: 4px;
+    max-width: 100%; 
+    height: auto; 
+    margin: 10px 0; 
+}
+
+.menu-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.menu-card{ 
+    width:430px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}  
+
+.menu-card:hover { 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transform: translateY(-5px)
+}
+   
+form {margin-top: 20px;}
+
+input:not([type="radio"]),
+select,
+textarea{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid#ccc;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    background-color: #ff8c00;
+    box-sizing: border-box;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+   
+button:hover { background-color: #7b4400; }
+    
+footer { 
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+    
